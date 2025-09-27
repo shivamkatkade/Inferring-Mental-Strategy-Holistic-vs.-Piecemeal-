@@ -1,0 +1,6 @@
+import pickle
+with open('holistic_model.pkl', 'wb') as f:
+    pickle.dump(holistic_model, f)
+
+with open('piecemeal_model.pkl', 'wb') as f:
+    pickle.dump(piecemeal_model, f)
